@@ -3,10 +3,22 @@
 int main()
  {
    int x,n,p[10],pp[10],bt[10],w[10],t[10],awt,atat,i,at[10],tq;
+ //n = number of process
+ // p = process
+ //pp = process priority
+ //bt = burst time
+ //w = waiting time
+ //t = turn around time
+ //awt = average waiting time
+ //atat = average turnaround time
+ //at = arival time
+ //tg = time quantum
    printf("Enter the number of process : ");
    scanf("%d",&n);
+   
    printf("Enter time quantum");
    scanf("%d",&tq);
+ 
    printf("\n\t Enter burst time : time priorities : Arrival time  \n");
 
    for(i=0;i<n;i++)
@@ -34,7 +46,6 @@ int j;
      p[i]=p[j];
      p[j]=x;
       }
-      //gc[i]=p[j];
    }
 }
 w[0]=0;
