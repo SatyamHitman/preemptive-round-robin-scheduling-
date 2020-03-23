@@ -64,7 +64,7 @@ for(i=1;i<n;i++)
  }
 //Displaying the process
 
-printf("\n\nProcess \t Burst Time \t Wait Time \t Turn Around Time   Priority \tArrival time \n");
+printf("\nProcess \t Burst Time \t Wait Time \t Turn Around Time   Priority \tArrival time \n");
 for(i=0;i<n;i++)
     {
     printf("\n  %d",p[i]);
