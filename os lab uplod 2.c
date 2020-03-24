@@ -3,16 +3,8 @@
 int main()
  {
    int x,n,p[10],pp[10],bt[10],w[10],t[10],awt,atat,i,at[10],tq;
- //n = number of process
- // p = process
- //pp = process priority
- //bt = burst time
- //w = waiting time
- //t = turn around time
- //awt = average waiting time
- //atat = average turnaround time
- //at = arival time
- //tg = time quantum
+ //n = number of process, p = process,  pp = process priority,  bt = burst time ,  w = waiting time,  t = turn around time
+ //awt = average waiting time,   atat = average turnaround time,  at = arival time,  tg = time quantum
    printf("Enter the number of process : ");
    scanf("%d",&n);
    
