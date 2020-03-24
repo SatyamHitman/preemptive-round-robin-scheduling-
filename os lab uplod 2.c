@@ -62,6 +62,14 @@ for(i=1;i<n;i++)
    atat+=t[i];
      }
  }
+ 
+ //gantt chart
+ printf("\n");
+ printf("gantt chart\n");
+ for(i=0;i<n;i++)
+ {
+    printf("p %d ",p[i]);
+ }
 //Displaying the process
 
 printf("\nProcess \t Burst Time \t Wait Time \t Turn Around Time   Priority \tArrival time \n");
